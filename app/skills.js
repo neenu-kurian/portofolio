@@ -23,7 +23,8 @@ export const skillsDetails = [
       "JavaScript (ES6+)",
       "TypeScript",
       "HTML5",
-      "CSS3/SASS",
+      "CSS3",
+      "SASS",
       "Web Components",
       "Lit-HTML",
     ],
@@ -46,7 +47,7 @@ export const skillsDetails = [
     icon: IoColorPaletteOutline,
     gradient: "bg-gradient-to-r from-pink-500 to-rose-500",
     category: "Styling & Design",
-    skills: ["Tailwind CSS", "Responsive Design"],
+    skills: ["Tailwind CSS", "SCSS", "Responsive Design"],
   },
   {
     icon: GoTools,
@@ -109,42 +110,38 @@ export const additionalStrengths = [
 
 export const timeLine = [
   {
-    time: "2019",
+    time: "2018",
     title: "Started Front-End Journey",
+    subtitle: "Wunderman Thompson Commerce",
     content:
-      "Began career in web development, focusing on creating responsive and accessible interfaces.",
+      "Began career in web development in e-commerce, focusing on creating responsive and accessible interfaces for several B2B clients and implementing A/B tests to continuously improve user experience.",
     icon: GrLaunch,
     color: "bg-blue-500",
   },
   {
-    time: "2020",
-    title: "Fintech Experience",
-    content:
-      "Joined a fintech startup, building secure payment processing interfaces and improving conversion rates.",
-    icon: HiOutlineCurrencyDollar,
-    color: "bg-green-500",
-  },
-  {
-    time: "2020",
-    title: "E-Commerce Platform",
-    content:
-      "Led front-end development for a major e-commerce redesign, reducing drop-off rates significantly.",
-    icon: HiOutlineShoppingCart,
-    color: "bg-yellow-500",
-  },
-  {
-    time: "2020",
+    time: "2021",
     title: "Automotive Industry",
+    subtitle: "EVBOX",
     content:
-      "Developed complex 3D configurators and real-time dashboards for automotive clients.",
+      "Worked at EVBOX, where I contributed to redesigning the company website and creating new application to support an upcoming product launch.",
     icon: HiOutlineCalendar,
     color: "bg-red-500",
   },
   {
-    time: "2023",
-    title: "Senior Developer",
+    time: "2022",
+    title: "Front-end Developer",
+    subtitle: "ING via Sogeti",
     content:
-      "Advanced to senior role, mentoring team members and architecting scalable front-end solutions.",
+      "Worked at ING via Sogeti, where I contributed to maintaining and developing multiple features, resolving production issues, managing releases, reducing technical debt, and implementing Adobe Analytics to monitor and improve user behavior insights. I was also involved in the Angular migration and the transition toward a micro-frontend architecture, helping modernize and streamline the overall application landscape.",
+    icon: HiOutlineUserGroup,
+    color: "bg-purple-500",
+  },
+  {
+    time: "2025",
+    title: "Front-end Developer",
+    subtitle: "Sogeti",
+    content:
+      "Back from maternity leave and currently helping the company create custom components for the upcoming event. I’m also using this time to reconnect with colleagues, get back into the rhythm, and pick up new learnings along the way.",
     icon: HiOutlineUserGroup,
     color: "bg-purple-500",
   },

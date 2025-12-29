@@ -42,13 +42,12 @@ const About = () => {
         }`}
       >
         I am a front-end developer with over six years of experience who enjoys
-        giving life to designs that will genuinely make lives of users
-        easier. I&apos;ve worked across fintech, e-commerce, and automotive
-        domains, collaborating closely with designers, product owners, and
-        engineers to deliver high-quality interfaces that balance user needs
-        with business goals.
+        giving life to designs that will genuinely make lives of users easier.
+        I&apos;ve worked across fintech, e-commerce, and automotive domains,
+        collaborating closely with designers, product owners, and engineers to
+        deliver high-quality interfaces that balance user needs with business
+        goals.
       </p>
-
       <p
         className={`text-base md:text-lg text-gray-500 leading-relaxed mb-4 ${
           visible ? "fade-in slow delay-400" : "opacity-0"
@@ -56,41 +55,42 @@ const About = () => {
       >
         I&apos;m proud to have contributed to multiple projects that helped
         customers by bringing major improvements to existing features that
-        reduced drop-off rate and improved conversions. I enjoy learning from
-        others, sharing knowledge, and creating an environment where working
-        together is both productive and fun.
+        reduced drop-off rate and improved conversions. Over the years,
+        I&apos;ve learned that while &quot;clean code&quot; is important, code
+        that&apos;s easy for the next developer to understand and maintain is
+        even better. That&apos;s why I always take the time to tidy up,
+        refactor, and leave things in a better state than I found them. I enjoy
+        learning from others, sharing knowledge, and creating an environment
+        where working together is both productive and fun.
       </p>
-
       <p
         className={`text-base md:text-lg text-gray-500 leading-relaxed mb-4 ${
           visible ? "fade-in slow delay-600" : "opacity-0"
         }`}
       >
-        Since modern front-end development revolves around JavaScript, I find it
-        easy to pick up new technologies and frameworks quickly, regardless of
-        stack. I consider myself a quick learner, always eager to adapt and
-        grow.
+        Since modern front-end is so JavaScript-heavy, I&apos;ve found that once
+        you understand the core language, picking up a new framework or stack is
+        just a matter of learning the syntax. I&apos;ve proven this on past
+        projects where I&apos;ve had to jump into unfamiliar tech and get up to
+        speed quickly. For me, the best part of the job is staying curious and
+        figuring out the best solution for the task at hand. There&apos;s always
+        a new puzzle to solve or a better approach to consider. The front-end
+        world evolves fast, and that&apos;s exactly what keeps me motivated. My
+        passion lies in making a real impact whether simplifying user flows or
+        creating entirely new features. The most rewarding part of my work is
+        seeing the happiness it brings to the users and the organization.
       </p>
-
       <p
         className={`text-base md:text-lg text-gray-500 leading-relaxed mb-4 ${
           visible ? "fade-in slow delay-800" : "opacity-0"
         }`}
       >
-        What I love about front-end world is that it is constantly evolving.
-        I love to work in an environment that challenges me to grow as well as
-        promotes learning and sharing knowledge. My ambition is to continue to
-        grow as a developer and to contribute to projects that can make a real
-        impact on lives of customers — simplifying existing flows or
-        developing new features.
-      </p>
-      <p
-        className={`text-base md:text-lg text-gray-500 leading-relaxed ${
-          visible ? "fade-in slow delay-1000" : "opacity-0"
-        }`}
-      >
-        The most rewarding part of my work is happiness that I see in others
-        when we add value for customers and organization.
+        Outside of work, my little ones make sure I never forget the true
+        meaning of &quot;multitasking&quot;. If I earn a moment to myself,
+        you&apos;ll find me with family and friends, enjoying music, watching
+        movies (in installments), or attempting gardening (mostly trying to keep
+        plants alive). I&apos;m also trying to learn Dutch and having small,
+        mini-conversations as I go.
       </p>
     </div>
   );

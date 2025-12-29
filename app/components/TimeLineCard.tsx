@@ -3,6 +3,7 @@ import Chip from "./Chip";
 const TimeLineCard = ({
   year,
   title,
+  subtitle,
   content,
   isLeft,
   color,
@@ -10,6 +11,7 @@ const TimeLineCard = ({
 }: {
   year: string;
   title: string;
+  subtitle: string;
   content: string;
   isLeft: boolean;
   color: string;
@@ -26,7 +28,7 @@ const TimeLineCard = ({
       }`}
     >
       <Chip item={year} color={color} textColor="text-white" />
-      <h3 className="text-lg md:text-xl font my-3 md:my-5">{title}</h3>
+      <h3 className="text-lg md:text-xl font my-3 md:my-5">{title} @ {subtitle}</h3>
       <p className="text-sm md:text-base text-gray-500">{content}</p>
     </div>
   );
