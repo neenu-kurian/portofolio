@@ -45,7 +45,7 @@ const Header = () => {
       {isMenuOpen && (
         <div className="md:hidden fixed inset-0 z-40" onClick={closeMenu}>
           <div className="absolute right-0 top-0 h-full w-64 bg-white shadow-lg" onClick={(e) => e.stopPropagation()}>
-            <div className="p-4">
+            <div className="p-4 bg-white">
               <button 
                 className="absolute top-4 right-4 text-gray-500 hover:text-black"
                 onClick={closeMenu}
