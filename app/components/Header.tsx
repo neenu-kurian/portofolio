@@ -20,10 +20,9 @@ const Header = () => {
           Portfolio
         </div>
         <ul className="hidden md:flex gap-6 md:gap-15 text-sm md:text-lg text-gray-500">
-          <li><a href="#about" className="hover:text-black cursor-pointer">About</a></li>
           <li><a href="#skills" className="hover:text-black cursor-pointer">Skills</a></li>
           <li><a href="#timeline" className="hover:text-black cursor-pointer">Experience</a></li>
-          <li><a href="#project" className="hover:text-black cursor-pointer">Project</a></li>
+          <li><a href="#project" className="hover:text-black cursor-pointer">Projects</a></li>
           <li><a href="#contact" className="hover:text-black cursor-pointer">Contact</a></li>
         </ul>
         <button 
@@ -55,7 +54,6 @@ const Header = () => {
                 </svg>
               </button>
               <ul className="space-y-4 text-lg text-gray-500">
-                <li><a href="#about" className="hover:text-black cursor-pointer block py-2" onClick={closeMenu}>About</a></li>
                 <li><a href="#skills" className="hover:text-black cursor-pointer block py-2" onClick={closeMenu}>Skills</a></li>
                 <li><a href="#timeline" className="hover:text-black cursor-pointer block py-2" onClick={closeMenu}>Experience</a></li>
                 <li><a href="#project" className="hover:text-black cursor-pointer block py-2" onClick={closeMenu}>Project</a></li>

@@ -72,13 +72,10 @@ const About = () => {
         you understand the core language, picking up a new framework or stack is
         just a matter of learning the syntax. I&apos;ve proven this on past
         projects where I&apos;ve had to jump into unfamiliar tech and get up to
-        speed quickly. For me, the best part of the job is staying curious and
-        figuring out the best solution for the task at hand. There&apos;s always
-        a new puzzle to solve or a better approach to consider. The front-end
-        world evolves fast, and that&apos;s exactly what keeps me motivated. My
-        passion lies in making a real impact whether simplifying user flows or
-        creating entirely new features. The most rewarding part of my work is
-        seeing the happiness it brings to the users and the organization.
+        speed quickly. The constant shift in front-end tech is what keeps me
+        motivated - there&apos;s always a better way to solve a problem or a new
+        puzzle to figure out. The most rewarding part of my work is seeing the
+        happiness it brings to the users and the organization.
       </p>
       <p
         className={`text-base md:text-lg text-gray-500 leading-relaxed mb-4 ${

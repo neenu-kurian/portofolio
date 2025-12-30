@@ -1,10 +1,9 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { GoArrowRight } from "react-icons/go";
+import { GoArrowRight, GoDownload } from "react-icons/go";
 
 const Hero = () => {
   const router = useRouter();
-  const goToAbout = () => router.push("/#about");
   const goToProjects = () => router.push("/#project");
 
   return (
@@ -19,15 +18,20 @@ const Hero = () => {
         With over six years of experience in bringing designs to life, I love to make interfaces that make users lives easier. Excited to build something wonderful with you!
       </p>
       <div className="flex flex-col sm:flex-row gap-4 mt-6">
-        <button className="pr-4 py-3 text-lg group" onClick={goToAbout}>
-          Let&apos;s get started <GoArrowRight className="inline text-[20px] group-hover:translate-x-1 transition-transform duration-300" />
-        </button>
         <button
-          className="px-4 py-3 bg-black text-white rounded-lg text-lg group hover:bg-gray-800"
+          className="px-4 py-3 mr-2 bg-black text-white rounded-lg text-lg group hover:bg-gray-800"
           onClick={goToProjects}
         >
-          Check out my work <GoArrowRight className="inline text-[20px] group-hover:translate-x-1 transition-transform duration-300" />
+          Check out my work <GoArrowRight className="inline text-[20px] group-hover:translate-x-1 duration-300" />
         </button>
+         <a
+          href="/assets/resume.pdf"
+          download="Neenu_Kurian_Resume.pdf"
+          className="px-4 py-3 text-black rounded-lg text-lg group flex items-center gap-2 hover:bg-black hover:text-white duration-300"
+        >
+          Download Resume
+          <GoDownload className="text-[20px]" />
+        </a>
       </div>
     </div>
   );
