@@ -19,12 +19,12 @@ const TimeLineCard = ({
 }) => {
   return (
     <div
-      className={`absolute z-0 p-6 md:p-10 bg-white shadow-md mb-3 bottom-[25%] rounded-2xl w-5/6 md:w-auto ${
+      className={`relative z-0 p-6 md:p-10 bg-white shadow-md rounded-2xl w-full md:w-auto flex-1 ${
         visible && isLeft ? "animate-move-left" : ""
       } ${visible && !isLeft ? "animate-move-right" : ""} ${
         isLeft 
-          ? "md:right-1/2 md:translate-x-3 md:mr-8 right-4" 
-          : "md:left-1/2 md:-translate-x-3 md:ml-8 right-4"
+          ? "md:absolute md:right-1/2 md:translate-x-3 md:mr-8" 
+          : "md:absolute md:left-1/2 md:-translate-x-3 md:ml-8"
       }`}
     >
       <Chip item={year} color={color} textColor="text-white" />

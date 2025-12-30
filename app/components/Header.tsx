@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 h-16 md:h-20 backdrop-blur-sm bg-[radial-gradient(circle_at_center,#ffffff_0,#ffffff_180px,#f6f0fa_100%)] p-4 md:p-6">
+    <nav className="fixed top-0 left-0 right-0 z-50 shadow-lg h-16 md:h-20 backdrop-blur-sm bg-[radial-gradient(circle_at_center,#ffffff_0,#ffffff_180px,#f6f0fa_100%)] p-4 md:p-6">
       <div className="flex justify-between items-center">
         <div className="text-lg md:text-xl text-gray-800 cursor-pointer hover:text-black" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           Portfolio

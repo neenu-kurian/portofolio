@@ -27,7 +27,7 @@ const Hero = () => {
          <a
           href="/assets/resume.pdf"
           download="Neenu_Kurian_Resume.pdf"
-          className="px-4 py-3 text-black rounded-lg text-lg group flex items-center gap-2 hover:bg-black hover:text-white duration-300"
+          className="px-4 py-3 text-black justify-center rounded-lg text-lg group flex items-center gap-2 hover:bg-black hover:text-white duration-300"
         >
           Download Resume
           <GoDownload className="text-[20px]" />

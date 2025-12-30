@@ -120,7 +120,7 @@ export const timeLine = [
   },
   {
     time: "2021",
-    title: "Automotive Industry",
+    title: "Web Developer",
     subtitle: "EVBOX",
     content:
       "Worked at EVBOX, where I contributed to redesigning the company website and creating new application to support an upcoming product launch.",
